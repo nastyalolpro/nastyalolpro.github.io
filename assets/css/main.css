@@ -142,12 +142,12 @@ input[type=submit]:hover {
 }
 
 .form-text{font-family: Times;
-font-style: italic;
-font-weight: bold;
-font-size: 2.778vw;
-margin-left: 22%;
-margin-top: 2%;
-color: #FF2C2C;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.778vw;
+    margin-left: 22%;
+    margin-top: 2%;
+    color: #FF2C2C;
 }
 
 .real{
