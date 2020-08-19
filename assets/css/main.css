@@ -1,0 +1,175 @@
+@import "compass/css3";
+*{box-sizing:border-box}
+head
+{font-family:Helvetica,"Helvetica Neue", Arial, sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    line-height:1.2;
+    text-align: center;
+    }
+
+img
+{display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+img.vr
+{z-index:-5;
+    margin-bottom: 20%;
+    }
+
+img.vr-face{position: absolute;
+    width: 15%;
+    margin-top: -25%;
+    left:42%;
+}
+
+img.angel{position: absolute;
+    z-index:-5;
+    width: 30%;
+    margin-left:2%;
+    margin-top: 95%;
+    }
+
+img.ipod{
+    position: absolute;
+    z-index:-5;
+    width: 37%;
+    margin-left: 30%;
+    margin-top: 5%;
+    }
+
+img.face{
+    position: absolute;
+    z-index:-5;
+    width: 46%;
+    margin-left: 25%;
+    margin-top: 103%;
+    }
+
+.text
+{font-family:Helvetica,"Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6.944vw;
+    line-height: 112.99%;
+    /* or 113px */
+    text-align: center;
+    margin-top: 15%;
+    color: #000000;
+}
+
+.break
+{font-family: Helvetica;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 6.875vw;
+    line-height: 112.99%;
+    text-align: center;
+    margin-top: 15%;
+}
+
+hr 
+{width: 400px;
+    align: center;
+    margin-top: 225px;
+    overflow: hidden; 
+    border-style: solid; 
+    border-width: 1px;
+    position: relative;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+form {width: 55%;
+    line-height: 250%;
+    border: 2px solid #FF2C2C;
+    border-radius: 25px;
+    position: relative;
+    margin-left: 22%;
+    margin-top: 15%;}
+
+input[type=email] {
+    width: 73%;
+    line-height: 170%;
+
+    border-radius: 25px;
+    display: inline-block;
+    border: 0px;
+    box-sizing: border-box;
+
+    font-size: 5.5vw;
+    font-family: Helvetica;
+    font-style: italic;
+    font-weight: bold;
+    background-color: white;
+    color: #FF2C2C;
+     
+}
+
+.input-field ::-webkit-progress-inner-element {
+    color: #FF2C2C;
+ }
+
+input[type=submit] {
+    width:27%;
+    line-height: 160%;
+
+    align-items: center;
+    text-align: center;
+    float:right;
+
+    border-radius: 40px;
+    border: 0px;
+    font-size: 5.5vw;
+    font-family: Helvetica;
+    font-style: italic;
+    font-weight: bold;
+    background-color: white;
+    color: #FF2C2C;
+  
+}
+
+input[type=submit]:hover {
+  opacity: .4;
+  color: red;
+}
+
+.vl
+{display:inline-block;
+    border-left: 2px solid #FF2C2C;    
+    height: 100%;
+    position: absolute;
+}
+
+.form-text{font-family: Times;
+font-style: italic;
+font-weight: bold;
+font-size: 2.778vw;
+margin-left: 22%;
+margin-top: 2%;
+color: #FF2C2C;
+}
+
+.real{
+    margin-top: 17%;
+    width:38%;
+}
+
+.shroom{
+    float:left;
+    width:20%;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 23%;
+    clear: both;
+
+}
+
+.shrrom{
+    float:right;
+    width:25%;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 27%;
+    clear: both;
+}
