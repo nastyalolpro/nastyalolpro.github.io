@@ -173,3 +173,9 @@ input[type=submit]:hover {
     margin-top: 27%;
     clear: both;
 }
+
+.widget{
+    width:50%;
+    margin-left: 37%;
+    margin-top: 5%;
+}
