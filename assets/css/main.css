@@ -150,7 +150,7 @@
 .break
 {font-weight: normal;
     font-style: normal;
-    font-size: 6.875vw;
+    font-size: 9.5vw;
     line-height: 112.99%;
     text-align: center;
 }
@@ -183,7 +183,7 @@
 .text{
     font-weight: normal;
     font-style: normal;
-    font-size: 6.875vw;
+    font-size: 9.5vw;
     line-height: 112.99%;
     text-align: center;
 }
@@ -192,14 +192,15 @@
     font-size: 5vw;
     position: absolute;
     transform: rotate(90deg);
-    margin-top: 23%;
-    margin-left: 53%;
+    margin-top: 27%;
+    margin-left: 56%;
     color: #4F4F4F;
 }
 #vr.text{
     font-family: 'Flicker-Distorted75';
-    font-size: 55.556vw;
+    font-size: 65vw;
     line-height: 100%;
+    margin-top: -5%;
 }
 #CSTM.text{
     font-family: 'CSTMXprmntl02-Bold';
