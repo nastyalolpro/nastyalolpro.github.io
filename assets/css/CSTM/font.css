@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'CSTM Xprmntl 02 Bold-Bold-Trial';
+  src: url('CSTM Xprmntl 02 Bold-Bold-Trial.eot');
+  src: url('CSTM Xprmntl 02 Bold-Bold-Trial.eot?#iefix') format('embedded-opentype'),
+       url('CSTM Xprmntl 02 Bold-Bold-Trial.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CSTMXprmntl02-Bold';
+  src: url('CSTMXprmntl02-Bold.svg#CSTMXprmntl02-Bold') format('svg'),
+       url('CSTMXprmntl02-Bold.ttf') format('truetype'),
+       url('CSTMXprmntl02-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

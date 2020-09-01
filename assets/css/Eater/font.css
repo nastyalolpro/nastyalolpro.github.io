@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Eater-Regular';
+  src: url('Eater-Regular.eot');
+  src: url('Eater-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Eater-Regular.svg#Eater-Regular') format('svg'),
+       url('Eater-Regular.ttf') format('truetype'),
+       url('Eater-Regular.woff') format('woff'),
+       url('Eater-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

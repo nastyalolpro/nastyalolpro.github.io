@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'HealthGoth-Regular-Trial';
+  src: url('HealthGoth-Regular-Trial.eot');
+  src: url('HealthGoth-Regular-Trial.eot?#iefix') format('embedded-opentype'),
+       url('HealthGoth-Regular-Trial.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HealthGoth-Regular';
+  src: url('HealthGoth-Regular.svg#HealthGoth-Regular') format('svg'),
+       url('HealthGoth-Regular.ttf') format('truetype'),
+       url('HealthGoth-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

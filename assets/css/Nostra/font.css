@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Nostra-Sett-Trial';
+  src: url('Nostra-Sett-Trial.eot');
+  src: url('Nostra-Sett-Trial.eot?#iefix') format('embedded-opentype'),
+       url('Nostra-Sett-Trial.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nostrav1.0-SettTrial';
+  src: url('Nostrav1.0-SettTrial.svg#Nostrav1.0-SettTrial') format('svg'),
+       url('Nostrav1.0-SettTrial.ttf') format('truetype'),
+       url('Nostrav1.0-SettTrial.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

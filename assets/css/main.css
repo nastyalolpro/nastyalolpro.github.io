@@ -1,72 +1,228 @@
 @import "compass/css3";
-*{box-sizing:border-box}
-head
-{font-family:Helvetica,"Helvetica Neue", Arial, sans-serif;
-    font-size:20px;
-    font-weight: bold;
-    line-height:1.2;
-    text-align: center;
-    }
-
-img
-{display: block;
-    margin-left: auto;
-    margin-right: auto;}
-
-img.vr
-{z-index:-5;
-    margin-bottom: 20%;
-    }
-
-img.vr-face{position: absolute;
-    width: 15%;
-    margin-top: -25%;
-    left:42%;
-}
-
-img.angel{position: absolute;
-    z-index:-5;
-    width: 30%;
-    margin-left:2%;
-    margin-top: 95%;
-    }
-
-img.ipod{
-    position: absolute;
-    z-index:-5;
-    width: 37%;
-    margin-left: 30%;
-    margin-top: 5%;
-    }
-
-img.face{
-    position: absolute;
-    z-index:-5;
-    width: 46%;
-    margin-left: 25%;
-    margin-top: 103%;
-    }
-
-.text
-{font-family:Helvetica,"Helvetica Neue", Arial, sans-serif;
+@font-face {
+    font-family: 'Dokdo-Regular';
+    src: url('Dokdo/Dokdo-Regular.eot');
+    src: url('Dokdo/Dokdo-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Dokdo/Dokdo-Regular.svg#Dokdo-Regular') format('svg'),
+         url('Dokdo/Dokdo-Regular.ttf') format('truetype'),
+         url('Dokdo/Dokdo-Regular.woff') format('woff'),
+         url('Dokdo/Dokdo-Regular.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
-    font-weight: bold;
-    font-size: 6.944vw;
-    line-height: 112.99%;
-    /* or 113px */
-    text-align: center;
-    margin-top: 15%;
-    color: #000000;
-}
+  }
+@font-face {
+    font-family: 'Eater-Regular';
+    src: url('Eater/Eater-Regular.eot');
+    src: url('Eater/Eater-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Eater/Eater-Regular.svg#Eater-Regular') format('svg'),
+         url('Eater/Eater-Regular.ttf') format('truetype'),
+         url('Eater/Eater-Regular.woff') format('woff'),
+         url('Eater/Eater-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Dusseldot-Regular 130-Trial';
+    src: url('Dusseldot/Dusseldot-Regular 130-Trial.eot');
+    src: url('Dusseldot/Dusseldot-Regular 130-Trial.eot?#iefix') format('embedded-opentype'),
+         url('Dusseldot/Dusseldot-Regular 130-Trial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Dusseldot-Regular130';
+    src: url('Dusseldot/Dusseldot-Regular130.svg#Dusseldot-Regular130') format('svg'),
+         url('Dusseldot/Dusseldot-Regular130.ttf') format('truetype'),
+         url('Dusseldot/Dusseldot-Regular130.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'CSTM Xprmntl 02 Bold-Bold-Trial';
+    src: url('CSTM/CSTM Xprmntl 02 Bold-Bold-Trial.eot');
+    src: url('CSTM/CSTM Xprmntl 02 Bold-Bold-Trial.eot?#iefix') format('embedded-opentype'),
+         url('CSTM/CSTM Xprmntl 02 Bold-Bold-Trial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'CSTMXprmntl02-Bold';
+    src: url('CSTM/CSTMXprmntl02-Bold.svg#CSTMXprmntl02-Bold') format('svg'),
+         url('CSTM/CSTMXprmntl02-Bold.ttf') format('truetype'),
+         url('CSTM/CSTMXprmntl02-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'HealthGoth-Regular-Trial';
+    src: url('Goth/HealthGoth-Regular-Trial.eot');
+    src: url('Goth/HealthGoth-Regular-Trial.eot?#iefix') format('embedded-opentype'),
+         url('Goth/HealthGoth-Regular-Trial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'HealthGoth-Regular';
+    src: url('Goth/HealthGoth-Regular.svg#HealthGoth-Regular') format('svg'),
+         url('Goth/HealthGoth-Regular.ttf') format('truetype'),
+         url('Goth/HealthGoth-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Archaism-Ct2Wd75-Trial';
+    src: url('Archaism/Archaism-Ct2Wd75-Trial.eot');
+    src: url('Archaism/Archaism-Ct2Wd75-Trial.eot?#iefix') format('embedded-opentype'),
+         url('Archaism/Archaism-Ct2Wd75-Trial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Archaism-Ct2Wd75';
+    src: url('Archaism/Archaism-Ct2Wd75.svg#Archaism-Ct2Wd75') format('svg'),
+         url('Archaism/Archaism-Ct2Wd75.ttf') format('truetype'),
+         url('Archaism/Archaism-Ct2Wd75.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Nostra-Sett-Trial';
+    src: url('Nostra/Nostra-Sett-Trial.eot');
+    src: url('Nostra/Nostra-Sett-Trial.eot?#iefix') format('embedded-opentype'),
+         url('Nostra/Nostra-Sett-Trial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Nostrav1.0-SettTrial';
+    src: url('Nostra/Nostrav1.0-SettTrial.svg#Nostrav1.0-SettTrial') format('svg'),
+         url('Nostra/Nostrav1.0-SettTrial.ttf') format('truetype'),
+         url('Nostra/Nostrav1.0-SettTrial.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Flicker-Distorted75-Trial';
+    src: url('Flicker/Flicker-Distorted75-Trial.eot');
+    src: url('Flicker/Flicker-Distorted75-Trial.eot?#iefix') format('embedded-opentype'),
+         url('Flicker/Flicker-Distorted75-Trial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Flicker-Distorted75';
+    src: url('Flicker/Flicker-Distorted75.svg#Flicker-Distorted75') format('svg'),
+         url('Flicker/Flicker-Distorted75.ttf') format('truetype'),
+         url('Flicker/Flicker-Distorted75.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: '40070';
+    src: url('Y/40070.eot');
+    src: url('Y/40070.eot?#iefix') format('embedded-opentype'),
+         url('Y/40070.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Y14.5M-2009';
+    src: url('Y/Y14.5M-2009.svg#Y14.5M-2009') format('svg'),
+         url('Y/Y14.5M-2009.ttf') format('truetype'),
+         url('Y/Y14.5M-2009.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Sail-Regular';
+    src: url('Sail/Sail-Regular.eot');
+    src: url('Sail/Sail-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Sail/Sail-Regular.svg#Sail-Regular') format('svg'),
+         url('Sail/Sail-Regular.ttf') format('truetype'),
+         url('Sail/Sail-Regular.woff') format('woff'),
+         url('Sail/Sail-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+*{box-sizing:border-box}
 
 .break
-{font-family: Helvetica;
-    font-style: italic;
-    font-weight: bold;
+{font-weight: normal;
+    font-style: normal;
     font-size: 6.875vw;
     line-height: 112.99%;
     text-align: center;
-    margin-top: 15%;
+}
+#one.break {
+    font-family: 'Eater-Regular';
+    margin-top: -11%;
+    margin-bottom: -2%;
+}
+#two.break {
+    font-family: 'Dokdo-Regular';
+    margin-top: -3%;
+    margin-bottom: -2%;
+}
+#three.break {
+    font-family: 'Dusseldot-Regular130';
+    margin-top: -2%;
+    margin-bottom: -2%;
+}
+.oval {
+    height: 34.722vw;
+    width: 27.778vw;
+    z-index:-5;
+    margin-left:22%;
+    margin-top: 1%;
+    background-color: #FF2C2C;
+    border-radius: 50%;
+    position: absolute;
+  }
+
+.text{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 6.875vw;
+    line-height: 112.99%;
+    text-align: center;
+}
+#rotate.text{
+    font-family: 'Y14.5M-2009';
+    font-size: 5vw;
+    position: absolute;
+    transform: rotate(90deg);
+    margin-top: 23%;
+    margin-left: 53%;
+    color: #4F4F4F;
+}
+#vr.text{
+    font-family: 'Flicker-Distorted75';
+    font-size: 55.556vw;
+    line-height: 100%;
+}
+#CSTM.text{
+    font-family: 'CSTMXprmntl02-Bold';
+}
+#hel.text{
+font-family:Helvetica,"Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+#goth.text{
+    font-family: 'HealthGoth-Regular';
+}
+#arch.text{
+    font-family: 'Archaism-Ct2Wd75';
+    margin-top: 0.75%;
+}
+#nostra.text{
+    font-family: 'Nostrav1.0-SettTrial';
+}
+#mail.text{
+    font-family: 'Sail-Regular';
+    color: #75ACFF;
+    text-decoration: underline;
 }
 
 hr 

@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Flicker-Distorted75-Trial';
+  src: url('Flicker-Distorted75-Trial.eot');
+  src: url('Flicker-Distorted75-Trial.eot?#iefix') format('embedded-opentype'),
+       url('Flicker-Distorted75-Trial.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Flicker-Distorted75';
+  src: url('Flicker-Distorted75.svg#Flicker-Distorted75') format('svg'),
+       url('Flicker-Distorted75.ttf') format('truetype'),
+       url('Flicker-Distorted75.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

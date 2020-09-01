@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Archaism-Ct2Wd75-Trial';
+  src: url('Archaism-Ct2Wd75-Trial.eot');
+  src: url('Archaism-Ct2Wd75-Trial.eot?#iefix') format('embedded-opentype'),
+       url('Archaism-Ct2Wd75-Trial.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Archaism-Ct2Wd75';
+  src: url('Archaism-Ct2Wd75.svg#Archaism-Ct2Wd75') format('svg'),
+       url('Archaism-Ct2Wd75.ttf') format('truetype'),
+       url('Archaism-Ct2Wd75.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Dokdo-Regular';
+  src: url('Dokdo-Regular.eot');
+  src: url('Dokdo-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Dokdo-Regular.svg#Dokdo-Regular') format('svg'),
+       url('Dokdo-Regular.ttf') format('truetype'),
+       url('Dokdo-Regular.woff') format('woff'),
+       url('Dokdo-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

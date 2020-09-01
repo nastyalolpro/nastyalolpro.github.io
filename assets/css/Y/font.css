@@ -1,0 +1,18 @@
+@font-face {
+  font-family: '40070';
+  src: url('40070.eot');
+  src: url('40070.eot?#iefix') format('embedded-opentype'),
+       url('40070.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Y14.5M-2009';
+  src: url('Y14.5M-2009.svg#Y14.5M-2009') format('svg'),
+       url('Y14.5M-2009.ttf') format('truetype'),
+       url('Y14.5M-2009.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

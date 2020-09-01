@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Sail-Regular';
+  src: url('Sail-Regular.eot');
+  src: url('Sail-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Sail-Regular.svg#Sail-Regular') format('svg'),
+       url('Sail-Regular.ttf') format('truetype'),
+       url('Sail-Regular.woff') format('woff'),
+       url('Sail-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

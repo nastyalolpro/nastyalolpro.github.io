@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Dusseldot-Regular 130-Trial';
+  src: url('Dusseldot-Regular 130-Trial.eot');
+  src: url('Dusseldot-Regular 130-Trial.eot?#iefix') format('embedded-opentype'),
+       url('Dusseldot-Regular 130-Trial.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dusseldot-Regular130';
+  src: url('Dusseldot-Regular130.svg#Dusseldot-Regular130') format('svg'),
+       url('Dusseldot-Regular130.ttf') format('truetype'),
+       url('Dusseldot-Regular130.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
