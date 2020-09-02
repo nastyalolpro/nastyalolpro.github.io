@@ -220,119 +220,88 @@ font-family:Helvetica,"Helvetica Neue", Arial, sans-serif;
 #nostra.text{
     font-family: 'Nostrav1.0-SettTrial';
 }
-#mail.text{
+
+
+.open-button{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 9.5vw;
+    line-height: 112.99%;
+    text-align: center;
     font-family: 'Sail-Regular';
     color: #75ACFF;
     text-decoration: underline;
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+
+    margin-left: 7%;
 }
 
-hr 
-{width: 400px;
-    align: center;
-    margin-top: 225px;
-    overflow: hidden; 
-    border-style: solid; 
-    border-width: 1px;
-    position: relative;
+.open-button:active{
+  color: #FF2C2C;
 }
 
-body {font-family: Arial, Helvetica, sans-serif;}
-form {width: 55%;
-    line-height: 250%;
-    border: 2px solid #FF2C2C;
-    border-radius: 25px;
-    position: relative;
-    margin-left: 22%;
-    margin-top: 15%;}
-
-input[type=email] {
-    width: 73%;
-    line-height: 170%;
-
-    border-radius: 25px;
-    display: inline-block;
-    border: 0px;
-    box-sizing: border-box;
-
-    font-size: 5.5vw;
-    font-family: Helvetica;
-    font-style: italic;
-    font-weight: bold;
-    background-color: white;
-    color: #FF2C2C;
-     
+.open-button:hover{
+  color: #FF2C2C;
 }
 
-.input-field ::-webkit-progress-inner-element {
-    color: #FF2C2C;
- }
-
-input[type=submit] {
-    width:27%;
-    line-height: 160%;
-
-    align-items: center;
-    text-align: center;
-    float:right;
-
-    border-radius: 40px;
-    border: 0px;
-    font-size: 5.5vw;
-    font-family: Helvetica;
-    font-style: italic;
-    font-weight: bold;
-    background-color: white;
-    color: #FF2C2C;
-  
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 70vw;
+  left: 30vw;
+  margin-top: -50%; /* Negative half of height. */
+  margin-left: -10%;
+  border: none;
+  z-index: 9;
 }
 
-input[type=submit]:hover {
-  opacity: .4;
-  color: red;
+/* Add styles to the form container */
+.form-container {
+  max-width: 70vw;
+  padding: 5vw;
+  background-color: gray;
 }
 
-.vl
-{display:inline-block;
-    border-left: 2px solid #FF2C2C;    
-    height: 100%;
-    position: absolute;
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
 }
 
-.form-text{font-family: Times;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 2.778vw;
-    margin-left: 22%;
-    margin-top: 2%;
-    color: #FF2C2C;
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
 }
 
-.real{
-    margin-top: 17%;
-    width:38%;
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
 }
 
-.shroom{
-    float:left;
-    width:20%;
-    position: absolute;
-    margin-left: 1%;
-    margin-top: 23%;
-    clear: both;
-
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
 }
 
-.shrrom{
-    float:right;
-    width:25%;
-    position: absolute;
-    margin-left: 70%;
-    margin-top: 27%;
-    clear: both;
-}
-
-.widget{
-    width:50%;
-    margin-left: 37%;
-    margin-top: 5%;
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
 }
