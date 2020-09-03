@@ -1,0 +1,66 @@
+@import "compass/css3";
+*{box-sizing:border-box}
+
+
+body {font-family: Helvetica,"Helvetica Neue", Arial, sans-serif;}
+form {width: 100%;
+    line-height: 250%;
+    margin-top: 23%;
+    position: relative;
+    }
+
+label {font-family: Helvetica,"Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 9.5vw;
+    line-height: 112.99%;
+    display: block;
+    text-align: center;
+    margin-top: 5.139vw;
+    }
+
+input[type=text] {
+    width: 80%;
+    line-height: 280%;
+    border-color: black;
+
+    font-size: 5.5vw;
+    font-family: Helvetica;
+    font-style: italic;
+    font-weight: bold;
+    background-color: white;
+    color: #FF2C2C;
+    
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 5.139vw;
+}
+
+.input-field ::-webkit-progress-inner-element {
+    color: #FF2C2C;
+ }
+
+button[type=submit] {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 9.5vw;
+    line-height: 112.99%;
+    display: block;
+    margin-left: 37%;
+    margin-top: 5.139vw;
+
+    
+    border: 0px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+  
+}
+
+button[type=submit]:hover {
+  opacity: 1;
+  color: #FF2C2C;
+}
+
