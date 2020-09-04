@@ -64,3 +64,14 @@ button[type=submit]:hover {
   color: #FF2C2C;
 }
 
+.text{
+    font-family: Helvetica,"Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 9.5vw;
+    line-height: 112.99%;
+    display: block;
+    text-align: center;
+    margin-top: 5.139vw;
+}
+
