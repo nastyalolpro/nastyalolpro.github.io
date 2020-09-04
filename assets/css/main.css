@@ -170,10 +170,10 @@
     margin-bottom: -2%;
 }
 .oval {
-    height: 34.722vw;
-    width: 27.778vw;
+    height: 47.5vw;
+    width: 38vw;
     z-index:-5;
-    margin-left:22%;
+    margin-left:10%;
     margin-top: 1%;
     background-color: #FF2C2C;
     border-radius: 50%;
