@@ -186,6 +186,7 @@
     font-size: 9.5vw;
     line-height: 112.99%;
     text-align: center;
+    
 }
 #rotate.text{
     font-family: 'Y14.5M-2009';
@@ -199,7 +200,7 @@
 #vr.text{
     font-family: 'Flicker-Distorted75';
     font-size: 65vw;
-    line-height: ;
+    line-height: 100%;
     margin-top: -5%;
 }
 #CSTM.text{
@@ -230,7 +231,8 @@ font-family:Helvetica,"Helvetica Neue", Arial, sans-serif;
     font-family: 'Sail-Regular';
     color: #75ACFF;
     text-decoration: underline;
-
+    text-align: center;
+    
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
